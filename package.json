@@ -18,8 +18,8 @@
     "@rescui/ui-contexts": "0.6.0",
     "classnames": "^2.5.1",
     "highlight.js": "10.5.0",
-    "isbot": "^5.1.31",
     "react": "^19.2.4",
+    "prop-types": "^15.8.1",
     "react-dom": "^19.2.4",
     "react-router": "7.12.0"
   },
