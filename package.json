@@ -1,0 +1,37 @@
+{
+  "name": "kotlin-intern",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@react-router/node": "7.12.0",
+    "@react-router/serve": "7.12.0",
+    "@rescui/button": "0.4.0",
+    "@rescui/card": "^0.13.10",
+    "@rescui/tab-list": "0.3.0",
+    "@rescui/typography": "0.3.0",
+    "@rescui/ui-contexts": "0.6.0",
+    "classnames": "^2.5.1",
+    "highlight.js": "10.5.0",
+    "isbot": "^5.1.31",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router": "7.12.0"
+  },
+  "devDependencies": {
+    "@react-router/dev": "7.12.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "^22",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

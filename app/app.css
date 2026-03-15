@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@import "@rescui/typography/lib/font-jb-sans-auto.css";
+@import "./styles/styles-v2.css";
+@import "./styles/index.css";
+@import "./styles/common.css";
+
