@@ -24,8 +24,7 @@ This project is a migration of the Kotlin site frontend to React Router (Vite + 
    ```bash
    npm install / yarn install / pnpm install
    ```
-3.
-4. **Run the app**:
+3 **Run the app**:
    ```bash
    npm run dev
    ```

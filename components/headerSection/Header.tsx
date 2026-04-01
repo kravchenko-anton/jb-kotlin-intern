@@ -2,14 +2,17 @@ import Button from "@rescui/button";
 import {cardCn} from "@rescui/card";
 import {useTextStyles} from "@rescui/typography";
 import cn from "classnames";
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Container, Section} from "../layout";
 import {cardsData} from "./cardData";
 
 
 function HeaderSection() {
 	const textCn = useTextStyles();
-	const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+	const [isMobile, setIsMobile] = useState(false);
+	useEffect(() => {
+		setIsMobile(window.innerWidth < 768);
+	}, []);
 	const visibleCards = isMobile ? cardsData.slice(0, 2) : cardsData;
 	
 	return (
